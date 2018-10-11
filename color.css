@@ -1,0 +1,19 @@
+.prvi {
+    color:rgb(55, 66, 66);
+    background-color:yellow;
+    opacity: 0.5;
+}
+.drugi {
+    color:#00CED1;
+    background-color: rgba(122, 50, 118, 0.5);
+}
+.treci {
+    color:rgb(0,206,209);
+}
+.kokos1 {
+    opacity:0.5;
+    background-color:#FF2089;
+}
+.kokos2 {
+    background-color: rgba(122,50,118, 0.5)
+}

@@ -1,0 +1,22 @@
+
+@font-face {
+    font-family: 'jelenaKraljicaSvemira';
+    font-style: normal;
+    font-weight: 400;
+    src: url('Charmonman-Regular.ttf');
+}
+@font-face {
+    font-family: 'jelenaKraljicaSvemira';
+    font-style: normal;
+    font-weight: 700;
+    src: url('Charmonman-Bold.ttf');
+}
+
+.p1 {
+    
+    font-family: 'jelenaKraljicaSvemira';
+}
+.p2 {
+    font-family: 'jelenaKraljicaSvemira';
+    font-weight: bold;
+}
