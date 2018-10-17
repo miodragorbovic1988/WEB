@@ -1,0 +1,64 @@
+div{
+    width: 200px;
+    height: 200px;
+}
+.d1{
+    background-color: red;
+}
+.d2{
+    background-color: yellow;  
+}
+.d3{
+    background-color: green;
+}
+
+.d4{
+    background-color: red;
+}
+.relative {
+    position: relative;
+    margin-bottom: 200px;
+}
+.d5{
+    background-color: yellow;
+    position:relative;
+    z-index:2;
+    top:-150px;
+    left:50px;
+}
+.d6{
+    background-color: green;
+    position:relative;
+    z-index:3;
+    top:-300px;
+    left:100px;
+}
+
+.d7{
+    background-color: red;
+    position:absolute;
+    right:0px;
+    bottom:100px;
+}
+.d8{
+    background-color: yellow;
+    position:absolute;
+    right:50px;
+    bottom:50px;
+}
+.d9{
+    background-color: green;
+    position:absolute;
+    right:100px;
+    bottom:0;
+}
+.absolute {
+    position: absolute;
+    margin-top:150px;
+    width: 100%;
+}
+.main {
+    width:900px;
+    position: relative;
+    margin: 0 auto;
+}

@@ -1,0 +1,30 @@
+.firstImage {
+    position:relative;
+    top:50px;
+    left:100px;
+    margin-bottom:30px;
+    
+}
+img {
+    width:350px;
+}
+.secondImage{
+    position: fixed;
+    right: 10px;
+    top: 15px;
+}
+.thirdImage{
+    position: absolute;
+    bottom: 0px;
+}
+p{
+    width: 900px;
+}
+.back {
+    position:fixed;
+    right:0;
+    bottom:0;
+}
+.back img{
+    width: 100px;
+}
