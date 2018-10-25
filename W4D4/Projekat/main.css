@@ -1,0 +1,430 @@
+@font-face {
+  src: url(./fonts/Roboto-Black.ttf);
+  font-family: "roboto";
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.clearfix:after {
+  content: "";
+  clear: both;
+  display: block;
+}
+
+body {
+  font-family: "roboto", sans-serif;
+  font-size: 1em;
+}
+
+nav {
+  text-align: center;
+  width: 90%;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+nav ul {
+  background-color: rgb(89, 185, 218);
+}
+
+nav ul li {
+  list-style: none;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: white;
+  opacity: 0.9;
+  font-weight: 700;
+}
+
+nav h1 span {
+  display: inline-block;
+  color: orange;
+  border-top: 4px solid #999;
+  border-bottom: 4px solid #999;
+  border-left: 4px solid #999;
+  margin-right: 5px;
+}
+
+nav h1 {
+  color: #999;
+}
+/* /////////////NAV///////////////////////// */
+@media (min-width: 567px)  {
+    nav {
+        margin: 0;
+        width: 100%;
+    }
+
+    nav h1 {
+        color: white;
+        float: left;
+        margin-left:20px;
+    }
+
+    nav h1 span {
+        border-color: white;
+    }
+    
+    nav ul {
+        float: right;
+        background-color: transparent;
+        margin-top:25px;
+        margin-right:20px;
+    }
+
+    nav ul li {
+        float: left;
+        margin-right: 10px;
+    }
+}
+
+@media (min-width:768px)  {
+    
+}
+
+/* Header */
+header {
+  background-image: url("images/banner3.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 20%;
+  padding-bottom: 20%;
+}
+img {
+  width: 100%;
+}
+header h2 {
+  font-size: 1em;
+  color: white;
+  text-align: center;
+}
+.buttonFirst {
+  margin: 0 auto;
+  display: block;
+  background-color: blue;
+  border-radius: 15px;
+  padding: 3px 10px;
+  border-color: blue;
+  margin-top: 3%;
+  font-family: "roboto";
+  font-size: 0.8em;
+  font-weight: 500;
+}
+.buttonFirst a {
+  text-decoration: none;
+  color: white;
+  background-color: blue;
+  font-weight: 100;
+}
+
+@media (min-width: 768px) {
+    header {
+        padding-top: 25%;
+        font-size: 1.8em;
+    }
+}
+@media (min-width:1200px){
+    header {
+        padding-top: 30%;
+      }
+      
+      header h2 {
+        font-size: 1.7em;
+        opacity: 0.8;
+        font-weight:200;
+        padding: 0 20px;
+      }
+      .buttonFirst {
+        
+        padding: 10px 15px;
+        border-color: rgb(112, 191, 223);
+        background-color:rgb(112, 191, 223);
+        margin-top: 3%;
+        font-family: "roboto";
+        font-size: 1em;
+        font-weight: 500;
+      }
+      .buttonFirst a {
+        text-decoration: none;
+        color: white;
+        background-color: rgb(112, 191, 223);
+        font-size: 0.6em;
+        font-weight: 100;
+      }
+}
+
+/* Main */
+main {
+  width: 100%;
+  display: inline-block;
+  padding-top: 5%;
+}
+main h3 {
+  border-bottom: 2px solid black;
+  margin-bottom: 3%;
+  
+  
+}
+article {
+    text-align: left;
+    margin: 0 auto;
+    width: 80%;
+    padding-left: 3%;
+  }
+  article ul li {
+    list-style-image: url("images/arrow_bullet.png");
+  
+    margin-bottom: 4%;
+  }
+
+  .sectionImg1 {
+    width: 90%;
+    margin: 0 auto;
+    display: block;
+    margin-bottom: 5%;
+  }
+  section h4 {
+    margin-bottom: 5%;
+    color: lightskyblue;
+  }
+  section p {
+    display: inline-block;
+    margin-bottom: 3%;
+  }
+
+  section {
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  
+  
+  .whatPeople {
+    width: 100%;
+    margin-top: 10%;
+    clear:both;
+  }
+  .bottomArticle {
+    background-color: rgb(103, 156, 216);
+    margin-bottom: 5%;
+    text-align: left;
+    padding-top: 5%;
+    padding-bottom: 5%;
+  }
+  .bottomImg {
+    display: block;
+    border-radius: 50%;
+    width: 20%;
+    float: left;
+    border: 2px solid white;
+  }
+  .bottomArticle h5 {
+    display: inline-block;
+    float: left;
+    margin-top: 5%;
+  }
+  .bottomArticle p {
+    color: white;
+  }
+  .firstArticleBottom {
+    margin-top: 5%;
+  }
+  .bottomSection2 {
+    height: 200px;
+  }
+  .greenDiv {
+    float: left;
+    width: 50%;
+    background-color: rgb(69, 148, 69);
+    color: white;
+  }
+  .redDiv {
+    float: left;
+    width: 50%;
+    background-color: rgb(206, 89, 89);
+    color: white;
+  }
+  .blueDiv {
+    float: left;
+    width: 50%;
+    background-color: blue;
+    color: white;
+  }
+  .houseDiv {
+    float: left;
+    width: 50%;
+    background-color: aqua;
+  }
+  
+  .ourMap {
+    width: 100%;
+    height: 80%;
+  }
+  
+
+@media (min-width: 567px){
+    main h3{
+        font-size: 1.6em;
+        font-weight: 300;
+        clear:both;
+    }
+    article {
+ 
+  float:left;
+  width: 50%;
+  padding-left: 3%;
+}
+.sectionImg1 {
+    width: 50%;
+    float:left;
+  }
+
+  .clearBoth{
+      clear:both;
+      width:90%;
+  }
+  section h4 {
+    margin-bottom: 5%;
+    color: lightskyblue;
+  }
+  section p {
+    /* display: inline-block; */
+    margin-bottom: 3%;
+  }
+
+  section {
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  
+  
+  .whatPeople {
+    width: 100%;
+    margin-top: 10%;
+    clear:both;
+  }
+  .bottomArticle {
+      width:45%;
+    margin:0 10px;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    float:left;
+  }
+  .bottomImg {
+    display: block;
+    border-radius: 50%;
+    width: 20%;
+    float: left;
+    border: 2px solid white;
+  }
+  .bottomArticle h5 {
+    display: inline-block;
+    float: left;
+    margin-top: 5%;
+  }
+  .bottomArticle p {
+    color: white;
+  }
+  .firstArticleBottom {
+    margin-bottom:0;
+  }
+  .selenaGomez {
+      margin-top:10px;
+  }
+  .bottomSection2 {
+    width:100%;
+    clear:both;
+  }
+  .greenDiv {
+    width:335px;
+    padding-top:150px;
+    padding-bottom:149px;
+  }
+
+  .redDiv {
+    float: right;
+    color: white;
+    padding:22.9% 0;
+    width:335px;
+  }
+  .redDiv img {
+      width:5%;
+  }
+  .blueDiv {
+    float: left;
+    width:335px;
+    background-color: blue;
+    color: white;
+    padding:20.9% 0;
+  }
+  .houseDiv {
+    float: left;
+    width:335px;
+    background-color: aqua;
+  }
+  
+  .ourMap {
+    width: 100%;
+    height: 80%;
+  }
+
+
+}
+
+
+/*****************TABLET***************/
+
+@media (min-width: 768px) {
+}
+  
+
+/*****************DESKTOP***************/
+
+@media (min-width: 1200px) {
+  nav {
+    text-align: center;
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+  }
+  nav ul {
+    position: absolute;
+    top: 2%;
+    right: 3%;
+    z-index: 10;
+  }
+  nav ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 2px 10px;
+    color: white;
+    font-weight: 700;
+    background-color: transparent;
+  }
+  nav h1 span {
+    display: inline-block;
+    color: orange;
+    border-top: 4px solid #999;
+    border-bottom: 4px solid #999;
+    border-left: 4px solid #999;
+    margin-right: 5px;
+  }
+  nav h1 {
+    color: #999;
+    float: left;
+    position: absolute;
+    top: 1%;
+    left: 3%;
+    z-index: 10;
+  }
+  
+  
+ 
+}
