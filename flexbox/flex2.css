@@ -1,0 +1,30 @@
+body {
+    display:flex;
+    flex-direction:row;
+}
+
+div {
+    height:200px;
+    width:200px;
+    
+}
+.first {
+background-color: yellow;
+text-align:center;
+}
+.second {
+    background-color: orange;
+}
+.third {
+
+    background-color: black;
+}
+.fourth {
+    background-color:brown;
+}
+.fifth {
+    background-color: grey;
+}
+.sixt{
+    background-color: orange;
+}

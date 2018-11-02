@@ -1,0 +1,13 @@
+.backgroundColor{
+    background-color:red;
+}
+
+.allLiElements {
+    background-color:blue;
+}
+.allThirdLiElements {
+    background-color: yellow;
+    font-weight:700;
+    font-size:20px;
+    text-transform: uppercase;
+}
