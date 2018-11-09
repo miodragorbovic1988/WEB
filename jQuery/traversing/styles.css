@@ -1,0 +1,15 @@
+body {
+    height: 100vh;
+}
+
+div {
+    height: 50vh;
+}
+
+img {
+    width: 33%;
+}
+
+.selected {
+    border: 2px solid red;
+}
